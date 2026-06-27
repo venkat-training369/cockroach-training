@@ -80,9 +80,8 @@ podman run -d `
   start-single-node `
   --insecure `
   --store=/cockroach/cockroach-data `
-  --http-addr=0.0.0.0:8080 `
-  --listen-addr=0.0.0.0:26257 `
-  --advertise-addr=cockdb1:26257
+  --advertise-addr=cockdb1 `
+  --http-addr=0.0.0.0:8080
 ```
 
 ---
@@ -272,4 +271,8 @@ podman restart cockdb1
 podman rm -f cockdb1
 ```
 
-This gives you a persistent **single-node CockroachDB** on the `venkat-net` network with data stored under `E:\podman-instances\cockdb`, making it easy to expand later into a 3-node cluster for your demo.
+persistent **single-node CockroachDB** on the `venkat-net` network with data stored under `E:\podman-instances\cockdb`, 
+
+---Next Session, making it easy to expand later into a 3-node cluster for your demo.
+
+--- podman pull cockroachdb/cockroach:v24.3.16
