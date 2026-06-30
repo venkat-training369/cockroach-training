@@ -65,14 +65,24 @@
 
 ## Module 5: Distributed Storage Internals
 
-* Range Splitting
-* Range Merging
-* Automatic Sharding
-* Replica Placement
-* Replication Factor
+* Storage Engine
+  - Pebble Storage Engine
+  - SSTables
+  - LSM Trees
+  - Write Path
+  - Read Path
+
+* Range Architecture
+  - Range Merging
+  - Lease Transfers
+  - Automatic Sharding
+  - Rebalancing 
+
+* Replication Internals
+* Replica Factor
 * Quorum
-* Rebalancing
-* Load-Based Splitting
+* Failover Process
+* Leader Election
 
 ---
 
