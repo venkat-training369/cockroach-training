@@ -85,8 +85,34 @@
   - Leader Election
 
 ---
+## Module 4: Database Administration
 
-## Module 6: Transactions & MVCC
+* Database Management
+  - Create Databases
+  - Create Schemas
+  - Create Tables
+  - Constraints
+  - Sequences
+
+* User Administration
+
+ - Users
+ - Roles
+ - Grants
+ - RBAC
+
+* Multi-Tenancy
+
+ - Logical Separation
+ - Tenant Architecture
+ - Resource Isolation
+
+* Hands-On
+
+- User Management Lab
+- Security Configuration
+
+333333333333333## Module 6: Transactions & MVCC
 
 * ACID
 * Serializable Isolation
