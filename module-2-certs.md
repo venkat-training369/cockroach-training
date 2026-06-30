@@ -41,7 +41,7 @@ Generate **one** CA on a secure machine (or on Node1 for a lab), then use that *
 
 ---
 
-# Incorrect Approach ❌
+### Incorrect Approach ❌
 
 Generating a different CA on every node:
 
@@ -90,7 +90,7 @@ The cluster **cannot form**, because every node has a different trust anchor.
 
 ---
 
-# Real-Time Example
+### Real-Time Example
 
 Suppose your cluster is:
 
@@ -122,7 +122,7 @@ All certificates are signed by the **same CA**.
 
 ---
 
-# Production Best Practice 🟢
+### Production Best Practice 🟢
 
 ```text
                 Secure Admin Machine
@@ -147,4 +147,3 @@ After generating the certificates:
 * 🟢 Copy `client.root.crt` (and `client.root.key` if administrators will connect from that node).
 * 🔴 **Do not copy `ca.key` to the database servers.**
 
-This is the model used in production because protecting the CA private key prevents anyone who compromises a database server from issuing new trusted certificates.
