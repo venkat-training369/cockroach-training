@@ -124,21 +124,7 @@
 * Savepoints
 
 ---
-
-## Module 7: Performance Tuning
-
-* EXPLAIN
-* EXPLAIN ANALYZE
-* Index Design
-* Statistics
-* Query Optimization
-* Hotspots
-* Vectorized Execution
-* Session Settings
-
----
-
-## Module 8: Cluster Administration
+## Module 7: Cluster Administration
 
 * User Management
 * Roles
@@ -149,6 +135,18 @@
 * Node Management
 * Certificates
 
+---
+
+## Module 8 : Performance Tuning
+
+* EXPLAIN
+* EXPLAIN ANALYZE
+* Index Design
+* Statistics
+* Query Optimization
+* Hotspots
+* Vectorized Execution
+* Session Settings
 ---
 
 ## Module 9: Backup & Restore
@@ -199,7 +197,7 @@
 
 ---
 
-## Module 13: Multi-Region Deployment
+## Module 13: Multi-Region Deployment (AWS or GCP)
 
 * Locality
 * Regions
@@ -263,23 +261,9 @@
 ## Module 18: Migration to CockroachDB
 
 * PostgreSQL to CockroachDB
-* MySQL to CockroachDB
 * Schema Migration
 * Data Migration
 * Validation
-
----
-
-## Module 19: Hands-on Labs
-
-* Install a Single-Node Cluster
-* Build a Three-Node Cluster
-* Create Databases & Tables
-* Run Transactions
-* Simulate a Node Failure
-* Add a New Node
-* Take a Backup & Restore
-* Monitor Cluster Health
 
 ---
 
@@ -292,4 +276,4 @@
 * Troubleshooting Scenarios
 * Production Case Studies
 
-T
+
