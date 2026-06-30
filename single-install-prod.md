@@ -1,4 +1,4 @@
-**step-by-step installation of CockroachDB v24.x on Oracle Linux 9 (OEL 9)** as a **single-node secure cluster with TLS certificates**. The certificate generation process uses CockroachDB's built-in `cockroach cert` commands. [\[cockroachlabs.com\]](https://www.cockroachlabs.com/docs/stable/secure-a-cluster)
+**step-by-step installation of CockroachDB v24.x on Oracle Linux 9 (OEL 9)**
 
 ### 1. Verify OEL Version
 
