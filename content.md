@@ -16,28 +16,31 @@
 
 * Prerequisites
 * Oracle Linux Installation
-* Podman Installation
-* Docker Installation
 * Single-Node Cluster
-* Three-Node Cluster
 * Secure vs Insecure Mode
+* Single-Node Cluster (Production method)
 * Web UI
 * SQL Client
+* Three-Node Cluster
 * Cluster Verification
+* Podman Desktop / Docker Installation
+
 
 ---
 
 ## Module 3: CockroachDB Architecture
 
 * Distributed SQL Architecture
-* Node
+* Node & Cluster Architecture
 * Store
-* Key-Value Layer
+* Key-Value(KV) Layer
 * Ranges
 * Replicas
 * Leaseholder
+* Gossip Protocol
 * Raft Consensus
-* Gossip
+* Hands-On
+     Explore Internal metadata tables
 * Cluster Topology
 
 ---
