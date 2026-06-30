@@ -111,7 +111,7 @@ cockroach cert create-node \
   --ca-key=/var/lib/cockroach/my-safe-directory/ca.key
 ```
 
-### What each parameter does
+#### What each parameter does
 
 - **localhost** → Allows local connections using `localhost`.
 - **127.0.0.1** → Allows local connections using the loopback IP.
