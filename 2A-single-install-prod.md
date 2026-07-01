@@ -1,4 +1,4 @@
-### Step-by-step Installation of CockroachDB v24.x on Oracle Linux 9 (OEL 9)
+## Step-by-step Installation of CockroachDB v24.x on Oracle Linux 9 (OEL 9)
 
 ---
 ## Prerequisites
