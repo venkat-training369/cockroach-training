@@ -31,9 +31,6 @@
     * Configure Firewall
 * DB Console
 * SQL Client
-* Three-Node Cluster Installation
-* Cluster Verification
-
 ---
 
 ### Module 3: Cockroachdb Distributed Architecture
@@ -53,12 +50,11 @@
 * Gossip Protocol
 * Raft Consensus
 * Metadata Tables
-
 **Hands-on**
-
-* Explore Internal Metadata
-* Cluster Topology
-
+  - Explore Internal Metadata
+  - Cluster Topology
+* Three-Node Cluster Installation
+* Cluster Verification
 ---
 
 ## Module 4: SQL Fundamentals
