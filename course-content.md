@@ -50,6 +50,7 @@
 * Gossip Protocol
 * Raft Consensus
 * Metadata Tables
+  
 **Hands-on**
   - Explore Internal Metadata
   - Cluster Topology
